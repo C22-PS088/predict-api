@@ -1,7 +1,7 @@
 # Predict Function API
 
 ## Trigger the predict function from the model and get the API prediction endpoint :
-This is a python code, so make sure you have python installed in your system.
+This is a python code, so make sure you have python installed on your system.
 
 1. Clone the repository then open it using your code editor.
 2. Supposedly you have trained the model (from the __Machine-Learning__ repository), download the model file with the __.h5__ file format and name it "__my_model_fix.h5__" (to match with the scripts), then move it to the root directory of this project.
