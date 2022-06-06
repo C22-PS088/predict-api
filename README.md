@@ -1,4 +1,4 @@
-# Predict function api
+# Predict Function API
 
 ## Trigger the predict function from the model and get the API prediction endpoint :
 This is a python code, so make sure you have python installed in your system.
