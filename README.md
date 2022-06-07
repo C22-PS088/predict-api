@@ -4,7 +4,7 @@
 This is a python code, so make sure you have python installed on your system.
 
 1. Clone the repository then open it using your code editor.
-2. Supposedly you have trained the model (from the [Machine-Learning](https://github.com/C22-PS088/Machine-Learning) repository), download the model file with the __.h5__ file format and name it "__my_model_fix.h5__" (to match with the scripts), then move it to the root directory of this project.
+2. Supposedly you have trained the model (from the [Machine-Learning](https://github.com/C22-PS088/Machine-Learning) repository), download the model file with the __.h5__ file format (or you can download it manually [here](https://drive.google.com/drive/folders/1f5g35lvQEuXnAQBDjyTvF-sfSr_mQps_?usp=sharing)) and name it "__my_model_fix.h5__" (to match with the scripts), then move it to the root directory of this project.
 3. This code is using Google Cloud Storage, so you have to make your own GCS Bucket, make a folder named __predict_uploads__ inside the bucket, get the credentials file (.json file) and name it "__sa-lindungi-credentials.json__" (to match with the scripts) then copy it to the root directory of this project.
 4. Go to __main.py__ edit the code in line 34, change '__sa-lindungi-image-bucket__' with the name of the bucket that you created in the previous step.
 5. Open terminal in the project root directory, then run `pip install -r requirements.txt` to install the dependencies.
